@@ -7,14 +7,13 @@
     <div class="container">
       <div class="row">
         <div>
-            <h1 id="header-title" class="header" style="color: #fda600">Expense <span style="color: #059862">Tracker</span></h1>
-
+            <h1 id="header-title" class="header" style="color: #f8cadd">Expense <span style="color: #06b995">Tracker</span></h1>
         </div>
       </div>
     </div>
   </header>
   <div class="container" >
-   <div id="main" class="card card-body" style='margin-top: 30px'>
+    <div id="main" class="card card-body" style='margin-top: 30px'>
     <h2 class="form" style='text-align:center'>Expense details</h2>
     <form id="addForm" >
       <div class = 'input-container'>
@@ -24,18 +23,21 @@
       <span style='font-size: 20px'>Choose Category:</span>
       <select name="cars" id="category" class='select'>
         <option value="Movie">Movie</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Food">Food</option>
         <option value="Daily">Daily</option>
         <option value="Medical">Medical</option>
         <option value="Fun">Fun</option>
         <option value="Fuel">Fuel</option>
         <option value="Travelling">Travelling</option>
       </select><br>
-      <input type="submit" class="expense-btn" value="Add Expense">
-      
+      <input type="submit" class="expense-btn" value="Add Expense"> 
     </form>
     <ul id="items" class="list-group"> </ul>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
   <script src = 'main.js'></script>
 </body>
 </html>

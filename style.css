@@ -1,5 +1,5 @@
 .editbutton {
-    background-color: #059862;
+    background-color: black;
     border: none;
     color: white;
     padding: 3px 10px;
@@ -7,8 +7,14 @@
     float: right;
     margin-right: 5px;
     font-size: 16px;
-    border-radius: 3px;
+    border-radius: 5px;
     }
+  .editbutton:hover{
+    background-color: transparent;
+    color: black;
+    border: solid;
+    border-width: 1px;
+  }
   .form {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -28,6 +34,7 @@
   }
   .header{
     padding: 50px;
+
   }
   .input-container .input {
     flex: 1;
@@ -54,4 +61,25 @@
     border-radius: 5px;
     margin-bottom: 30px;
     margin-top: 30px;
+  }
+  .expense-btn:hover{
+    background-color: transparent;
+    color: black;
+
+  }
+  .delete-btn{
+    background-color: red;
+    color: white;
+    float: right;
+    border: none;
+    padding: 3px 7px 3px 7px;
+    font-size: 15px;
+    border-radius: 3px;
+  }
+  .delete-btn:hover{
+    background-color: transparent;
+    color: black;
+    border: solid;
+    border-color: red; 
+    border-width: 2px;
   }
